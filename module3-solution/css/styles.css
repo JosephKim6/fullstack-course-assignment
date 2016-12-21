@@ -1,1 +1,31 @@
+#header-nav, #nav-list{
+  background-color: grey;
+}
 
+.navbar-brand p{
+  color: white;
+  font-size: 1.5em;
+}
+
+#search-button .icon-bar{
+  background-color: white;
+}
+
+ul li{
+  color: white;
+  text-align: center;
+}
+
+#title{
+  font-size: 1.5em;
+}
+
+.col-xs-12{
+  background-color: gray;
+  color: white;
+}
+
+.col-xs-12 p{
+  text-align: center;
+  font-size: 1.2em;
+}
