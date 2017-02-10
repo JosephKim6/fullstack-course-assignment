@@ -1,0 +1,15 @@
+input {
+    color: black;
+}
+
+.ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+  border: 2px red solid;
+}
+
+button {
+    background-color: black;
+}

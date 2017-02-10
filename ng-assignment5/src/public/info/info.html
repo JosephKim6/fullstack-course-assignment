@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>User Information</h2>
+    <div ng-if="info.showContent">
+        <span>{{ info.firstname }} {{ info.lastname }}</span><br>
+        <span>{{ info.email }}</span><br>
+        <span>{{ info.phone }}</span><br><br>
+        <div>Favourite:<br>
+            <img ng-src="https://jin-ngcourse.herokuapp.com/images/{{info.favdish}}.jpg" alt="{{info.favdish}}">
+            <span><strong>{{ info.name }}</strong></span><br>
+            <span>{{ info.description }}</span>
+        </div>
+    </div>
+
+    <div ng-if="info.showError">Not Signed Up Yet. <a ui-sref="public.sign">Sign up Now!<a></div>
+    
+</div>
